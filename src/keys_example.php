@@ -1,4 +1,5 @@
 <?php
+namespace TooPago\CoinPayments;
 // For example scripts and PHPUnit testing.
 // Populate your keys below and then rename this file to "keys.php"
 // Generate and edit your key permissions here: https://www.coinpayments.net/acct-api-keys

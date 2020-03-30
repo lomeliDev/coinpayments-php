@@ -1,4 +1,6 @@
 <?php
+namespace TooPago\CoinPayments;
+
 require('CoinpaymentsCurlRequest.php');
 
 /**

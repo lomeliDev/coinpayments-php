@@ -1,5 +1,5 @@
 {
-  "name": "coinpaymentsnet/coinpayments-php",
+  "name": "toopago/coinpayments-php",
   "type": "library",
   "description": "A PHP wrapper for the CoinPayments.net v1 API.",
   "homepage": "https://www.coinpayments.net/apidoc-intro",
@@ -34,9 +34,14 @@
     "php": ">=5.5.0"
   },
   "autoload": {
-    "classmap": ["/src"],
+    "classmap": [
+      "/src"
+    ],
     "exclude-from-classmap": [
       "/tests"
-    ]
+    ],
+    "psr-4": {
+      "TooPago\\CoinPayments\\": "./src/"
+    }
   }
 }

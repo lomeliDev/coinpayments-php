@@ -1,5 +1,5 @@
 <?php
-
+namespace TooPago\CoinPayments;
 /**
  * Class CoinpaymentsValidator
  *

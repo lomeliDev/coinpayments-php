@@ -1,4 +1,5 @@
 <?php
+namespace TooPago\CoinPayments;
 require('CoinpaymentsValidator.php');
 
 class CoinpaymentsCurlRequest
